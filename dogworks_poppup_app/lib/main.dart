@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'home/home.dart';
+import 'home.dart';
 
 void main() {
   runApp(const PopPupApp());
@@ -14,9 +14,9 @@ class PopPupApp extends StatelessWidget {
       title: 'PUP-POP',
       theme: ThemeData(
         primarySwatch: Colors.blue,
-        primaryColor: const Color(0xFF2B3674), // Deep blue color from the design
+        primaryColor: const Color(0xFF2B3674), // Deep blue
         colorScheme: ColorScheme.fromSwatch().copyWith(
-          secondary: const Color(0xFF5D9C59), // Green color from the design
+          secondary: const Color(0xFF5D9C59), // Green
         ),
         fontFamily: 'Roboto',
         textTheme: const TextTheme(

@@ -1,6 +1,3 @@
-// import 'dart:async';
-// import 'dart:convert';
-// import 'dart:math';
 import 'package:flutter/foundation.dart';
 import '../models/device_model.dart';
 import '../models/uwb_data_model.dart';
@@ -42,7 +39,7 @@ class UwbService with ChangeNotifier {
         print("Parsed link - Anchor: ${link.anchorAddress}, Range: ${link.range} m${link.rxPower != null ? ", Power: ${link.rxPower} dBm" : ""}");
       }
       
-      // Update statistics automatically
+      // Update statistics
       _updateStatistics(deviceId, uwbData);
       
       // Notify listeners that new data is available

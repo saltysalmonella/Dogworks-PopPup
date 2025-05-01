@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 
+// This widget displays a card with a title, value, and an icon.
+// It is used to show various statistics in the app.
+
 class StatCardWidget extends StatelessWidget {
   final String title;
   final String value;

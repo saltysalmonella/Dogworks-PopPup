@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import '../models/device_model.dart';
 
+// This widget displays a list of game devices, allowing the user to connect or disconnect from them.
+// It shows the device name, status (paired or available), and provides buttons for connection actions.
+
 class DeviceListView extends StatelessWidget {
   final List<GameDevice> devices;
   final Function(GameDevice) onConnect;

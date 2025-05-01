@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import '../models/device_model.dart';
 
+// This widget is used to control the state of a node (open/close) in the game.
+// It displays the node's status, and provides buttons to open or close the node.
+
 class NodeControlWidget extends StatefulWidget {
   final GameDevice node;
   final bool isAutoPlayMode;
