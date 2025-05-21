@@ -1,4 +1,8 @@
-# dogworks_poppup_app
+# PopPup Mobile Application
+
+This is the companion mobile application for the PopPup interactive pet system. It allows users to monitor and control PopPup hardware components (Collar and Nodes).
+
+For a complete overview of the PopPup system, including hardware setup and firmware, please see the [main project README.md](../../README.md).
 
 A new Flutter project.
 
